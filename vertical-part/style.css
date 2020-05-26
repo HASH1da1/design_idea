@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+}
+.column {
+    height: 100vh;
+    width: 100%;
+  }
+    .c1 {
+        background: no-repeat top center;
+        background-color: #567;
+        background-size: cover;
+  }
+    .c2 {
+        background: no-repeat center center;
+        background-color: #765;
+        background-size: cover;
+        }
+  .c3{
+        background: no-repeat center center;
+        background-color: #945;
+        background-size: cover;
+  }
+
+  @media all and (min-width: 500px) {
+    .wrapper {
+      display: flex;
+    }
+  }
